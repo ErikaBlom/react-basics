@@ -37,3 +37,7 @@ li span.todo-detail {
   font-style: italic;
   margin-left: 5px;
 }
+
+button, label {
+  margin-top: 10px;
+}

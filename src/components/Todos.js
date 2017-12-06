@@ -5,9 +5,9 @@ import { todos } from '../data/todoData.js';
 import Todo from './Todo.js';
 
 class Todos extends Component {
-  state = {
-    todos: [],
-  };
+  // state = {
+  // todos: [],
+  //};
 
   componentWillMount() {
     this.setState({ todos });

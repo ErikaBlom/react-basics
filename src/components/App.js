@@ -1,13 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import logo from '../QDelft_logo.svg';
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../styles/App.css';
-import Todos from './Todos.js';
+import Todos2 from './Todos2.js';
 
 class App extends Component {
-  //componentWillMount() {
-  //  this.setState({todos});
-  //}
   render() {
     return (
       <div className="App container">
@@ -18,7 +15,7 @@ class App extends Component {
         <div className="row">
           <div className="col-xs-12">
             <p className="App-intro" />
-            <Todos />
+            <Todos2 />
           </div>
         </div>
       </div>
