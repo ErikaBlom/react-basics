@@ -37,7 +37,7 @@ export const todos = [
   }
 ];
 
-export const addTodo = todo => {
+export const addTodo = (todo) => {
   const maxId = todos.reduce((prev, cur) => (cur.id > prev ? cur.id : prev), 0);
   const { heading, detail, dueDate } = todo;
   todos.push({ id: maxId + 1, heading, detail, dueDate });

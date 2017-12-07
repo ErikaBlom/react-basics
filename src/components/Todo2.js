@@ -7,7 +7,8 @@ const Todo2 = ({heading, detail, dueDate}) => <li>{`${heading} - ${detail} - ${d
 
 Todo2.propTypes = {
     heading: PropTypes.string.isRequired,
-    detail: PropTypes.string.isRequired
+    detail: PropTypes.string.isRequired,
+    dueDate: PropTypes.string.isRequired
 };
 
 export default Todo2;
